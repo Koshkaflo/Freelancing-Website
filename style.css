@@ -31,6 +31,7 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
+
 }
 .nav__item {
     text-decoration: none;
@@ -38,6 +39,8 @@ body {
     font-size: 20px;
     color: rgba(37, 37, 37, 0.7);
     padding-right: 35px;
+    
+
 }
 .nav__item:hover {
     font-weight: 500;
@@ -51,6 +54,9 @@ body {
     font-size: 20px;
     color: #fff;
     border-radius: 50px;
+
+
+
 }
 .button__btn:hover {
     background-color: #0078e2;
@@ -59,8 +65,10 @@ body {
     border: none;
     outline: none;
     background-color: transparent;
+
+
 }
 .header-logo__img {
     width: auto;
-    margin-right: 4vw;
 }
+
