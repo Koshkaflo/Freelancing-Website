@@ -2,18 +2,12 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-}
-.header {
     background-image: url(img/Rectangle-bg.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
-    width: 100%;
-    height: 981px;
-    left: 0px;
-    top: 0px;
-
+    height: 100%;
 }
+
 .container {
     margin: 0 8%;
 
@@ -29,8 +23,7 @@ body {
 
     }
 .nav {
-    display: flex;
-    justify-content: space-between;
+    display: block;
 
 }
 .nav__item {
@@ -39,7 +32,7 @@ body {
     font-size: 20px;
     color: rgba(37, 37, 37, 0.7);
     padding-right: 35px;
-    
+    transition: color 0.4s linear; 
 
 }
 .nav__item:hover {
@@ -54,21 +47,78 @@ body {
     font-size: 20px;
     color: #fff;
     border-radius: 50px;
-
-
+    transition: background-color 0.3s linear;
+    cursor: pointer;
 
 }
 .button__btn:hover {
-    background-color: #0078e2;
+    background-color: #016dcc;
 }
 .button {
     border: none;
     outline: none;
     background-color: transparent;
-
-
 }
-.header-logo__img {
+
+
+.section-home {
+    display: flex;
+    justify-content: space-between;
+}
+.section-home-left__text-area {
+    margin-top: 119px;
+}
+.section-home-right__img {
+    margin-top: 15px;
     width: auto;
+}
+.text-area__title {
+    color: #252525;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 98px;
+}
+.text-area__description {
+    color:rgba(37, 37, 37, 0.6);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 17px;
+}
+
+.section-home-left__form-area {
+    margin-top: 84px;
+    display: flex;
+}
+.submit-btn {
+    cursor: pointer;
+    border: none;
+    background-color: #1E88E5;
+    padding: 20px 24px;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    transition: background-color 0.3s linear;
+}
+
+.submit-btn:hover {
+    background-color: #016dcc;
+}
+
+.placeholder {
+    margin-left: 19px;
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    color: #9D9D9D;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 23px 173px 23px 25px;
+    background-image: url(img/icon-search.png);
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    outline: none;
 }
 
