@@ -12,6 +12,7 @@ body {
     margin: 0 8%;
 
 }
+
 .header-line {
     margin-top: 50px;
     display: flex;
@@ -63,20 +64,33 @@ body {
 
 .section-home {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    margin-bottom: 121px;
+
+}
+
+.section-home-left {
+    max-width: 690px;
+    min-width: 450px;
 }
 .section-home-left__text-area {
     margin-top: 119px;
+    width: 100%;
+
 }
 .section-home-right__img {
-    margin-top: 15px;
-    width: auto;
-}
+    margin-top: 25px;
+    width: 105%;
+    height: auto;
+} 
+
 .text-area__title {
     color: #252525;
     font-weight: 700;
     font-size: 65px;
     line-height: 98px;
+    
+
 }
 .text-area__description {
     color:rgba(37, 37, 37, 0.6);
@@ -89,6 +103,8 @@ body {
 .section-home-left__form-area {
     margin-top: 84px;
     display: flex;
+    width: 690px;
+
 }
 .submit-btn {
     cursor: pointer;
@@ -119,6 +135,35 @@ body {
     background-image: url(img/icon-search.png);
     background-repeat: no-repeat;
     background-position: right 10px center;
-    outline: none;
+    outline: none; 
+}
+
+.section-info {
+    background-color: #FFFFFF;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    padding: 41px 53px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.section-info__card {
+    text-align: center;
+}
+.card-title {
+    color: #252525;
+    font-weight: 500;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    line-height: 45px;
+    
+}
+.card-desc {
+    color: #9D9D9D;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 0;
 }
 
