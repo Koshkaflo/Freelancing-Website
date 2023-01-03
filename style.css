@@ -9,8 +9,11 @@ body {
 }
 
 .container {
-    margin: 0 108px;
+    margin: 0 122px;
 
+}
+.container__header {
+    margin: 0 108px;
 }
 
 .header-line {
@@ -185,7 +188,9 @@ body {
     font-size: 56px;
     margin-top: 0;
 }
-.text-area__title-pref span {
+.title-line__text-area-title span,
+.text-area__title-pref span,
+.category__title span {
     color: #1E88E5;
 }
 .text-area__description-pref {
@@ -239,4 +244,100 @@ body {
 }
 .section-pref-left__img {
     width: auto;
+}
+
+.title-line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 75px;
+}
+.title-line__text-area-subtitle {
+    color: #9D9D9D;
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+.title-line__text-area-title {
+    color: #252525;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 84px;
+    margin: 0;
+}
+.title-line-arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 149px;
+    
+}
+.button-arr__white,
+.button-arr__blue {
+    outline: none;
+    border: none;
+    width: 62px;
+    height: 62px;
+    text-align: center;
+    border-radius: 60px;
+    cursor: pointer;
+
+}
+.button-arr__white {
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+}
+.button-arr__blue {
+    background: #1E88E5;
+}
+
+.section-work-cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 176px;
+}
+.work-card {
+    text-align: center;
+    padding: 20px;
+    width: 27%;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+.work-card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bid-txt span {
+    display: block;
+    font-size: 28px;
+}
+.work-card__title {
+    color: #252525;
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.work-card__desc {
+    color: #9D9D9D;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.bid-txt {
+    color: rgba(37, 37, 37, 0.7);
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.apply {
+    color: #1E88E5;
+    font-weight: 500;
+    font-size: 24px;
+}
+.work-card__icon {
+    margin-bottom: 30px;
 }
