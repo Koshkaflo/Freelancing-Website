@@ -341,3 +341,123 @@ body {
 .work-card__icon {
     margin-bottom: 30px;
 }
+
+
+.section-category {
+    text-align: center;
+    width: auto;
+}
+.category__title {
+    color: #252525;
+    font-weight: 500;
+    font-size: 56px;
+}
+.category-gallery {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.gallery-card-1,
+.gallery-card-2,
+.gallery-card-3,
+.gallery-card-4,
+.gallery-card-5,
+.gallery-card-6, 
+.gallery-card-7,
+.gallery-card-8 {
+    position: relative;
+    margin-bottom: 40px;
+}
+.gallery-card-wrap {
+    position: absolute;
+    top:0;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    width: 290px;
+    height: 241px;
+}
+.gallery-card-1__title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    position: absolute;
+    top: 82px;
+    left: 43px;
+}
+.gallery-card-2__title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    position: absolute;
+    top: 82px;
+    left: 32px;
+}
+.gallery-card-3__title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    position: absolute;
+    top: 82px;
+    left: 79px;
+}
+.gallery-card-4__title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    position: absolute;
+    top: 82px;
+    left: 39px;
+}
+.gallery-card-5__title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    position: absolute;
+    top: 82px;
+    left: 71px;
+}
+.gallery-card-6__title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    position: absolute;
+    top: 82px;
+    left: 51px;
+}
+.gallery-card-7__title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    position: absolute;
+    top: 82px;
+    left: 60px;
+}
+.gallery-card-8__title {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 24px;
+    position: absolute;
+    top: 82px;
+    left: 64px;
+}
+.category__btn {
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+    background-color: #1E88E5;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color linear 0.3s;
+}
+.category__btn:hover {
+    background-color: #016dcc;
+}
+
+
