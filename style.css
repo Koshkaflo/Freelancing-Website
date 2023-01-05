@@ -464,6 +464,10 @@ body {
     background-color: #016dcc;
 }
 
+
+.portfolios {
+    margin-bottom: 168px;
+}
 .portfolios-title {
     text-align: center;
     margin-bottom: 75px;
@@ -487,6 +491,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin-bottom: 75px;
 }
 .portfolio__card {
     background: #FFFFFF;
@@ -514,6 +519,20 @@ body {
     line-height: 36px;
     margin: 0;
 }
-
+.portfolio-pagination {
+    text-align: center;
+}
+.pag {
+    height: 12px;
+    width: 47px;
+    background-color:  #9D9D9D;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 0 8px;
+  }
+  .pag:active {
+    width: 82px;
+    background-color:#1E88E5;
+  }
 
 
