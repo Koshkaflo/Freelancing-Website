@@ -25,17 +25,21 @@ body {
     background-color: #fff;
     border-radius: 50px;
 
-    }
+}
 .nav {
-    display: block;
-
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 35px;
+    margin-left: 2%;
+    margin-right: 1%;
 }
 .nav__item {
     text-decoration: none;
     font-weight: 400;
     font-size: 20px;
     color: rgba(37, 37, 37, 0.7);
-    padding-right: 35px;
     transition: color 0.4s linear; 
 
 }
@@ -83,8 +87,6 @@ body {
 }
 .section-home-right__img {
     margin-top: 25px;
-    width: 105%;
-    height: auto;
 } 
 
 .text-area__title {
@@ -190,7 +192,8 @@ body {
 }
 .title-line__text-area-title span,
 .text-area__title-pref span,
-.category__title span {
+.category__title span,
+.title__main span {
     color: #1E88E5;
 }
 .text-area__description-pref {
@@ -346,6 +349,7 @@ body {
 .section-category {
     text-align: center;
     width: auto;
+    margin-bottom: 166px;
 }
 .category__title {
     color: #252525;
@@ -459,5 +463,57 @@ body {
 .category__btn:hover {
     background-color: #016dcc;
 }
+
+.portfolios-title {
+    text-align: center;
+    margin-bottom: 75px;
+}
+.title__sub {
+    color: #9D9D9D;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 2px;
+}
+.title__main {
+    color: #252525;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 84px;
+    margin-top: 0;
+}
+
+.portfolios-cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.portfolio__card {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+.portfolio__card__footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 18px 40px 18px;
+}
+.card__txt__title {
+    color: #252525;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    margin: 0;
+}
+.card__txt__desc {
+    color: #9D9D9D;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin: 0;
+}
+
 
 
