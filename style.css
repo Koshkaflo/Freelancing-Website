@@ -529,15 +529,10 @@ body {
     border-radius: 10px;
     display: inline-block;
     margin: 0 8px;
-    text-decoration: none;
   }
   .pag:active {
     width: 82px;
     background-color:#1E88E5;
-  }
-  a:-webkit-any-link {
-    cursor: pointer;
-    text-decoration: none;
   }
 
   .subscription__wrapper {
@@ -591,10 +586,47 @@ body {
     font-weight: 600;
     font-size: 24px;
  }
+
+
  .footer {
-    padding-top: 133px;
+    padding-top: 142px;
     padding-bottom: 28px;
  }
+ .copyright {
+    color: #9D9D9D;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+ }
+ .footer__columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 94px;
+ }
+ .footer-contacts {
+    display: flex;
+ }
+ .footer-column__title {
+    margin: 0;
+ }
+ .footer-menu__item {
+    list-style-type: none;
+ }
+ .footer__social-media {
+    display: flex;
+    align-items: center;
+ }
+ .social-media_icon {
+    margin-right: 27px;
+ }
+ .footer-column__company-desc {
+    margin-top: 0;
+    margin-bottom: 20px;
+ }
+.footer__column {
+    padding-left: 0;
+}
 
 
 
