@@ -10,21 +10,21 @@
 </head>
 
 <body>
-  <header class="header">       
+  <header class="header" id="mainpage">       
     <div class="container__header">
         <div class="header-line">
             <div class="header-logo">
-                <img class="header-logo__img" src="img/logo.png" alt="logo">
+                <a href="#mainpage"><img class="header-logo__img" src="img/logo.png" alt="logo"></a>
             </div>
             <div class="nav">
-                <a class="nav__item" href="#">Home</a>
-                <a class="nav__item" href="#">Find work</a>
-                <a class="nav__item" href="#">Find Freelancers</a>
+                <a class="nav__item" href="#home">Home</a>
+                <a class="nav__item" href="#find-work">Find work</a>
+                <a class="nav__item" href="#Find-Freelancers">Find Freelancers</a>
                 <a class="nav__item" href="#">Log In</a>
                 <a class="nav__item" href="#">Sign Up</a>
             </div>
             <div class="button">
-                <a class="button__btn" href="#">Post a project</a>
+                <a class="button__btn" id="post-project" href="#">Post a project</a>
             </div>
         </div>
     </div>
@@ -33,7 +33,7 @@
   <main class="content">  
     <div class="container">
 
-        <section class="section-home"> 
+        <section class="section-home" id="home"> 
             <div class="section-home-left">
                 <div class="section-home-left__text-area">
                     <h1 class="text-area__title">Are you looking for Freelancers?</h1>
@@ -70,7 +70,7 @@
         </section>
 
         <section>
-            <div class="section-pref">
+            <div class="section-pref" id="Find-Freelancers">
                 <div class="section-pref-left">
                     <img class="section-pref-left__img" src="img/illust2.png" alt="illustration">
                     <div class="counts">
@@ -95,7 +95,7 @@
         </section>
 
         <section>
-            <div class="section-work">
+            <div class="section-work" id="find-work">
                 <div class="title-line">
                     <div class="title-line__text-area">
                         <h3 class="title-line__text-area-subtitle">The latest freelance work!</h3>
@@ -241,13 +241,13 @@
             </div>
             <div class="portfolio-pagination">
                 <a class="pag-a" href="#">
-                    <div class="pag"></div>
+                    <span class="pag"></span>
                 </a>
                 <a class="pag-a" href="#">
-                    <div class="pag"></div>
+                    <span class="pag"></span>
                 </a>
                 <a class="pag-a" href="#">
-                    <div class="pag"></div>
+                    <span class="pag"></span>
                 </a>
             </div>
        </section>
@@ -284,10 +284,10 @@
                 <h3 class="footer-column__title">For Clients</h3>
                 <ul class="footer__column menu">
                     <li class="footer-menu__item">
-                        <a href="#">Find Freelancers</a>
+                        <a href="#Find-Freelancers">Find Freelancers</a>
                     </li>
                     <li class="footer-menu__item">
-                        <a href="#">Post Project</a>
+                        <a href="#post-project">Post Project</a>
                     </li>
                     <li class="footer-menu__item">
                         <a href="#">Refund Policy</a>
@@ -301,7 +301,7 @@
                 <h3 class="footer-column__title">For Freelancers</h3>
                 <ul class="footer__column menu">
                     <li class="footer-menu__item">
-                        <a href="#">Find Work</a>
+                        <a href="#find-work">Find Work</a>
                     </li>
                     <li class="footer-menu__item">
                         <a href="#">Create Account</a>

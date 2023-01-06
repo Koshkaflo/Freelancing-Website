@@ -302,9 +302,13 @@ body {
     text-align: center;
     padding: 20px;
     width: 27%;
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
     border-radius: 30px;
+}
+.work-card:hover {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    background-color: #e9f5ff;
 }
 .work-card__footer {
     display: flex;
@@ -376,6 +380,7 @@ body {
 .gallery-card-8 {
     position: relative;
     margin-bottom: 40px;
+    border-radius: 20px;
 }
 .gallery-card-wrap {
     position: absolute;
@@ -384,8 +389,12 @@ body {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 20px;
     width: 290px;
-    height: 241px;
+    height: 242px;
 }
+.gallery-card-wrap:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
 .gallery-card-1__title {
     color: #ffffff;
     font-weight: 600;
@@ -401,6 +410,7 @@ body {
     position: absolute;
     top: 82px;
     left: 32px;
+    
 }
 .gallery-card-3__title {
     color: #ffffff;
@@ -527,6 +537,7 @@ body {
 }
 .portfolio-pagination {
     text-align: center;
+    
 }
 .pag {
     height: 12px;
