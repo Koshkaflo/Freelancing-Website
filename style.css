@@ -31,7 +31,7 @@ body {
     flex-direction: row;
     align-items: flex-start;
     padding: 0px;
-    gap: 35px;
+    gap: 30px;
     margin-left: 2%;
     margin-right: 1%;
 }
@@ -494,10 +494,16 @@ body {
     margin-bottom: 75px;
 }
 .portfolio__card {
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
     margin-bottom: 40px;
+    cursor: pointer;
+}
+.portfolio__card:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+
+
 }
 .portfolio__card__footer {
     display: flex;
@@ -530,9 +536,12 @@ body {
     display: inline-block;
     margin: 0 8px;
   }
-  .pag:active {
+  .pag:hover {
     width: 82px;
     background-color:#1E88E5;
+  }
+  .pag-a {
+    text-decoration: none;
   }
 
   .subscription__wrapper {
@@ -572,7 +581,7 @@ body {
     border-radius: 10px;
     color: #9D9D9D;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 23px;
     padding: 20px 182px;
     width: 350px;
  }
@@ -585,6 +594,11 @@ body {
     color: #FFFFFF;
     font-weight: 600;
     font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s linear;
+ }
+ .subscription__btn:hover {
+    background-color: #016dcc;
  }
 
 
@@ -603,15 +617,21 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 94px;
- }
- .footer-contacts {
-    display: flex;
+    color: #252525;
  }
  .footer-column__title {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 27px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
  }
  .footer-menu__item {
     list-style-type: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
  }
  .footer__social-media {
     display: flex;
@@ -623,9 +643,37 @@ body {
  .footer-column__company-desc {
     margin-top: 0;
     margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
  }
 .footer__column {
     padding-left: 0;
+}
+.footer-menu__item a {
+    text-decoration: none;
+    color: #252525;
+}
+.footer-menu__item a:hover {
+    text-decoration: underline;
+}
+.footer-contacts {
+    display: flex;
+ }
+.footer__column-icons {
+    padding: 0;
+    margin: 0;
+}
+.footer__column-contact {
+    margin: 0;
+    padding: 0;
+}
+.footer__column-contact .footer-menu__item {
+    padding-bottom: 20px;
+    margin-left: 14px;
+}
+.footer__column-icons .footer-menu__item {
+    padding-bottom: 16px;
 }
 
 
