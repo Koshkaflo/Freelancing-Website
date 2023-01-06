@@ -383,6 +383,7 @@ body {
     margin-bottom: 40px;
     border-radius: 20px;
 }
+
 .gallery-card-wrap {
     position: absolute;
     top:0;
@@ -686,6 +687,7 @@ body {
 }
 .footer__column-icons .footer-menu__item {
     padding-bottom: 16px;
+    padding-top: 0;
 }
 
 
