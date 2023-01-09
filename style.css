@@ -67,7 +67,7 @@ body {
 
 .section-home {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -76,11 +76,7 @@ body {
     min-width: 450px;
 }
 .section-home-left__text-area {
-    display: flex;
-    flex-direction: column;
-    margin-top: 119px;
-    width: 100%;
-
+    margin-top: 18%;
 }
 
 .text-area__title {
@@ -88,21 +84,21 @@ body {
     font-weight: 700;
     font-size: 64px;
     line-height: 1.5;
-    
-
+    margin: 0;
 }
 .text-area__description {
     color:rgba(37, 37, 37, 0.6);
     font-weight: 400;
     font-size: 24px;
     line-height: 1.5;
-    margin-top: 17px;
+    margin: 17px 0 0;
+    max-width: 568px;
 }
 
 .section__form-area {
     display: flex;
-    margin-bottom: 172px;
-    margin-top: 30px;
+    margin-bottom: 160px;
+    margin-top: -4%;
 
 }
 .submit-btn {
@@ -136,8 +132,8 @@ body {
     background-position: right 10px center;
     outline: none; 
 }
-.section-home-right__img {
-    width: auto;
+.section-home-right {
+    margin-left: 50px;
 } 
 
 .section-info {
@@ -705,8 +701,10 @@ body {
         font-size: 16px;
     }
     .section-home-right__img {
-        width: 120%;
-        
+        width: 120%;   
+    }
+    .section__form-area {
+        margin-top: 30px;
     }
     .text-area__title {
         font-size: 56px;
@@ -715,7 +713,7 @@ body {
         width: auto;
     }
     .section-home-left__text-area {
-        margin-top: 70px;
+        margin-top: 100px;
     }
     .section-pref {
         flex-direction: column;
