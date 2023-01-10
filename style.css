@@ -283,8 +283,14 @@ body {
     background: #FFFFFF;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
 }
+.button-arr__white:hover {
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.2);
+}
 .button-arr__blue {
     background: #1E88E5;
+}
+.button-arr__blue:hover {
+    background-color: #016dcc;
 }
 
 .section-work-cards {
@@ -588,7 +594,7 @@ body {
     font-weight: 400;
     font-size: 23px;
     padding: 20px 20%;
-    box-sizing: border-box;
+    width: 320px;
  }
  .subscription__btn {
     border: none;
