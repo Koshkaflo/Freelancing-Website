@@ -28,7 +28,7 @@ body {
 }
 
 .container {
-    margin: 0 5%;
+    margin: 0 6%;
 
 }
 .container__header {
@@ -495,9 +495,9 @@ body {
 
 .portfolios-cards {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin-bottom: 75px;
-    gap: 50px;
 }
 .portfolio__card {
     background-color: #FFFFFF;
@@ -703,8 +703,18 @@ body {
     .section-home-left__text-area {
         margin-top: 100px;
     }
+    .work-card__title {
+        font-size: 1.25rem;
+    }
+    .work-card__desc {
+        font-size: 0.9rem;
+    }
     .work-card__footer {
         gap: 30px;
+        font-size: 0.8rem;
+    }
+    .bid-txt span {
+        font-size: 0.9rem;
     }
     .section-pref {
         flex-direction: column;
