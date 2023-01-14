@@ -824,12 +824,69 @@ body {
 
 /* Small screen devices (768px and below) */
 @media only screen and (max-width: 768px) {
-
-   
+    html {
+        font-size: 125%;
+    }
+    .section__form-area {
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+    .section-pref-left {
+        width: 75vw;
+        margin: auto;
+    }
+    .section-pref-left__img {
+        width: 90%;
+    }
+    .count__title {
+        font-size: 1rem;
+    }
+    .count__subtitle {
+        font-size: 0.8rem;
+    }
+    .count__500 {
+        top: -70px;
+        left: 230px;
+    }
+    .count__300 {
+        top: 60px;
+        left: 260px;
+    }
+    .footer__column-icons .footer-menu__item {
+        padding-bottom: 8px;
+    }
 }
  
 /* For extremely small screen devices (480px and below) */
 @media only screen and (max-width: 480px) {
+    html {
+        font-size: 113%;
+    }
+    .header-logo__img {
+        width: 70%;
+    }
+    .section-home-left {
+        min-width: 300px;
+    }
+    .count__500 {
+        top: -80px;
+        left: 90px;
+    }
+    .count__300 {
+        top: 40px;
+        left: 150px;
+    }
+    .input_subscription {
+        width: 250px;
+    }
+    .placeholder {
+        padding: 20px 110px 20px 18px;
+    }
+    .card-img__ptf {
+        width: 100%;
+    }
 
 }
  
