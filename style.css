@@ -45,6 +45,13 @@ body {
     border-radius: 50px;
 
 }
+
+.a__logo {
+    display: flex;
+}
+.burger {
+    display: none;
+}
 .nav {
     display: flex;
     padding: 0px;
@@ -147,9 +154,10 @@ body {
     background-position: right 10px center;
     outline: none; 
 }
-.section-home-right {
-    margin-left: 50px;
-} 
+
+.section-home-right__img {
+    width: 40vw;
+}
 
 .section-info {
     background-color: #FFFFFF;
@@ -679,17 +687,11 @@ body {
     .button__btn {
         font-size: 0.7rem;
     }
-    .header-logo__img {
-        width: 85%;
-    }
     .nav {
         gap: 20px;
     }
     .nav__item {
         font-size: 0.7rem;
-    }
-    .section-home-right__img {
-        width: 120%;   
     }
     .section__form-area {
         margin-top: 30px;
@@ -741,6 +743,37 @@ body {
 
 /* Medium screen devices (1024px and below) */
 @media only screen and (max-width: 1024px) {
+    .burger {
+        display: flex;
+    }
+    .button {
+        display: none;
+    }
+    .nav {
+        display: none;
+    }
+    .section-home {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .section-home-left__text-area {
+        margin-top: 50px;
+    }
+    .text-area__description {
+        margin: 20px auto;
+    }
+    .section-home-right {
+        margin: auto;
+    }
+    .section-home-right__img {
+        width: 65vw;
+    }
+    .section__form-area {
+        margin-top: 20px;
+        margin-bottom: 120px;
+        justify-content: center;
+    }
 
 }
 
