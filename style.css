@@ -774,6 +774,31 @@ body {
         margin-bottom: 120px;
         justify-content: center;
     }
+    .section-info {
+        flex-direction: column;
+        margin-bottom: 120px;
+    }
+    .section-pref {
+        margin-bottom: 120px;
+    }
+    .section-work-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+    .work-card {
+        width: 65vw;
+    }
+    .title-line {
+        flex-direction: column;
+        text-align: center;
+    }
+    .section-category {
+        margin-bottom: 120px;
+    }
+    .portfolios {
+        margin-bottom: 120px;
+    }
 
 }
 
