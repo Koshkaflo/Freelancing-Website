@@ -678,6 +678,9 @@ body {
     padding-bottom: 16px;
     padding-top: 0;
 }
+.bottom-col {
+    display: none;
+}
 
 
 
@@ -799,12 +802,30 @@ body {
     .portfolios {
         margin-bottom: 120px;
     }
+    .hidden-col {
+        display: none;
+    }
+    .bottom-col {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer__columns {
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: space-between;
+    }
+    .footer {
+        padding-top: 70px;
+    }
 
 }
 
 /* Small screen devices (768px and below) */
 @media only screen and (max-width: 768px) {
 
+   
 }
  
 /* For extremely small screen devices (480px and below) */
