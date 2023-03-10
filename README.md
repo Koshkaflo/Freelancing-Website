@@ -1,14 +1,6 @@
-# Freelancing-Landing page
+# Freelancing- Landing page
 
-font-size: base-24px(150%)
-    16px-0.7rem,
-    18px-0.75rem,
-    20px-0.8rem, 
-    22px-0.9rem,
-    28px-1.17rem,
-    30px-1.25rem,
-    32px-1.3rem,
-    36px-1.5rem,
-    56px-2.3rem,
-    64px-2.7rem
-  
+HTML with BEM methodology, adaptive cross-browser CSS design based on FLEX, media queries.
+The figma layout link: 
+https://www.figma.com/file/cCX1vWK7AblknmLhr4ICBh/Freelancing-Website-UI-(Community)-(Copy)?node-id=0%3A1&t=0kBJxOlAEnhIv5Ob-1
+
