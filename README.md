@@ -1,4 +1,4 @@
-# Freelancing- Landing page
+# Freelancing web service (Landing page)
 
 HTML with BEM methodology, adaptive cross-browser CSS design based on FLEX, media queries.
 
